@@ -41,6 +41,12 @@ img.profile-pic {
 	margin-left: 4px;
 }
 
+img.company-logo {
+	margin-right: 0;
+	height: 75px;
+	width: auto;
+}
+
 .container {
 	margin: 0 auto;
 	position: relative;
