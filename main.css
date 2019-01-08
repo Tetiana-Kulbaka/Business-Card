@@ -35,15 +35,15 @@ img {
 img.profile-pic {
 	object-fit: cover;
 	border-radius: 50%;
-	height: 150px;
-	width: 150px;
+	height: 300px;
+	width: 300px;
 	margin: 0;
 	margin-left: 4px;
 }
 
 img.company-logo {
 	margin-right: 0;
-	height: 100%;
+	height: 100px;
 	width: auto;
 }
 
