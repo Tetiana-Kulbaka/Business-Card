@@ -1,7 +1,7 @@
 html,
 body {
-	height: auto;
-	width: auto;
+	height: 100%;
+	width: 100%;
 	margin: 0;
 	justify-content: center;
 }
@@ -35,8 +35,8 @@ img {
 img.profile-pic {
 	object-fit: cover;
 	border-radius: 50%;
-	height: 150px;
-	width: 150px;
+	height: 30%;
+	width: 30%;
 	margin: 0;
 	margin-left: 4px;
 }
@@ -160,11 +160,11 @@ img.company-logo {
 }
 
 .primary-info {
-	height: 100px;
+	height: 15%;
 }
 
 .secondary-info {
-	height: 60px;
+	height: 8%;
 }
 
 .additional-info {
@@ -215,7 +215,7 @@ img.company-logo {
 }
 
 .bottom {
-	height: 100px;
+	height: 23%;
 }
 
 .button {
