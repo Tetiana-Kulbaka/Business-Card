@@ -177,8 +177,9 @@ img.company-logo {
 	background-color: #00122A;
 }
 
-.bg-color-hero {
-	background: linear-gradient(#2F80ED, #2D9CDB, #2D9CDB 59.4%, #FFFFFF 59.4%);
+.bg-color-grey {
+	background-color: #F2F2F2;
+
 }
 
 .bg-color-white {
