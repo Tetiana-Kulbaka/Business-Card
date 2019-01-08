@@ -34,7 +34,7 @@ img {
 
 img.profile-pic {
 	object-fit: cover;
-	border-radius: 75%;
+	border-radius: 50%;
 	height: 150px;
 	width: 150px;
 	margin: 0;
@@ -43,7 +43,7 @@ img.profile-pic {
 
 img.company-logo {
 	margin-right: 0;
-	height: auto;
+	height: 50%;
 	width: auto;
 }
 
