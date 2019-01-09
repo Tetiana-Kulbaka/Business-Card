@@ -154,7 +154,7 @@ img.company-logo {
 }
 
 .banner {
-	padding-top: 35px;
+	padding-top: 20px;
 	padding-bottom: 0px;
 	height: 150px;
 }
@@ -201,7 +201,7 @@ img.company-logo {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #333333;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .text-detail {
@@ -219,15 +219,16 @@ img.company-logo {
 }
 
 .button {
+	display: block;
+	width: 160px;
 	background-color: #219653;
 	height: 53px;
-	padding: 0px 24px;
+	padding: 0px 20px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 48px;
-	font-family: 'Muli', sans-serif;
-	color: white;
 	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.5px;
 	color: white;
 	font-size: 16px;
 	font-weight: 300;
@@ -238,11 +239,8 @@ img.company-logo {
 	 border-radius: 30px;
 	/* box-shadow */
 	 -webkit-box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
-	 -moz-box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
-	 box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
-
-
-}
+	
+	}
 
 @media screen and (max-width: 600px) {
   img.profile-pic {
