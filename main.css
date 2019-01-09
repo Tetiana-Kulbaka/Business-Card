@@ -154,17 +154,17 @@ img.company-logo {
 }
 
 .banner {
-	padding-top: 10px;
+	padding-top: 35px;
 	padding-bottom: 0px;
 	height: 150px;
 }
 
 .primary-info {
-	height: 15%;
+	height: 100px;
 }
 
 .secondary-info {
-	height: 8%;
+	height: 60px;
 }
 
 .additional-info {
@@ -177,9 +177,8 @@ img.company-logo {
 	background-color: #00122A;
 }
 
-.bg-color-grey {
-	background-color: #F2F2F2;
-
+.bg-color-hero {
+	background: linear-gradient(#2F80ED, #2D9CDB, #2D9CDB 59.4%, #FFFFFF 59.4%);
 }
 
 .bg-color-white {
@@ -208,28 +207,28 @@ img.company-logo {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #333333;
-    font-size: 15px;
+    font-size: 13px;
     position: relative;
 	transform: translateY(-5%); 
 	letter-spacing: 0.15px;
 }
 
 .bottom {
-	height: 15%;
+	height: 100px;
 }
 
 .button {
 	display: block;
 	width: 160px;
-	background-color: #219653;
+	background: linear-gradient(#2F80ED, #2D9CDB);
 	height: 53px;
 	padding: 0px 24px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 48px;
 	font-family: 'Lato', sans-serif;
-	letter-spacing: 0.5px;
 	color: white;
+	letter-spacing: 0.5px;
 	font-size: 16px;
 	font-weight: 300;
 	border: none;
@@ -237,21 +236,14 @@ img.company-logo {
 	 -webkit-border-radius: 30px;
 	 -moz-border-radius: 30px;
 	 border-radius: 30px;
-		
-	}
-
-@media screen and (max-width: 600px) {
-  img.profile-pic {
-    height: 60%;
-    width: 60%;
-  }
+	/* box-shadow */
+	 -webkit-box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
+	 -moz-box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
+	 box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
 }
 
-@media screen and (max-width: 480px) {
-  img.profile-pic {
-    height: 80%;
-    width: 80%;
-  }
+.button:hover {
+	cursor: pointer;
 }
 
 .horizontal-center-child {
