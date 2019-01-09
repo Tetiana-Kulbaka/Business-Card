@@ -156,7 +156,7 @@ img.company-logo {
 .banner {
 	padding-top: 35px;
 	padding-bottom: 0px;
-	height: 150px;
+	height: 100px;
 }
 
 .primary-info {
@@ -215,12 +215,12 @@ img.company-logo {
 }
 
 .bottom {
-	height: 13%;
+	height: 10%;
 }
 
 .button {
 	background-color: #219653;
-	height: 53px;
+	height: 48px;
 	padding: 0px 24px;
 	text-align: center;
 	vertical-align: middle;
@@ -229,7 +229,6 @@ img.company-logo {
 	color: white;
 	font-family: 'Lato', sans-serif;
 	color: white;
-	letter-spacing: 0.5px;
 	font-size: 16px;
 	font-weight: 300;
 	border: none;
