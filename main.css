@@ -194,14 +194,14 @@ img.company-logo {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     color: #333333;
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .text-title-company {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #333333;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .text-detail {
@@ -220,7 +220,7 @@ img.company-logo {
 
 .button {
 	background-color: #219653;
-	height: 48px;
+	height: 53px;
 	padding: 0px 24px;
 	text-align: center;
 	vertical-align: middle;
@@ -236,6 +236,10 @@ img.company-logo {
 	 -webkit-border-radius: 30px;
 	 -moz-border-radius: 30px;
 	 border-radius: 30px;
+	/* box-shadow */
+	 -webkit-box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
+	 -moz-box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
+	 box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
 
 
 }
