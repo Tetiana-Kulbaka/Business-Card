@@ -155,7 +155,7 @@ img.company-logo {
 
 .banner {
 	padding-top: 10px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 	height: 150px;
 }
 
@@ -194,21 +194,21 @@ img.company-logo {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     color: #333333;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .text-title-company {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #333333;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .text-detail {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #333333;
-    font-size: 14px;
+    font-size: 15px;
     position: relative;
 	transform: translateY(-5%); 
 	letter-spacing: 0.15px;
@@ -221,8 +221,7 @@ img.company-logo {
 .button {
 	display: block;
 	width: 160px;
-	rem: background-color: #219653;
-	background: linear-gradient(#219653, #2D9CDB);
+	background-color: #219653;
 	height: 53px;
 	padding: 0px 24px;
 	text-align: center;
@@ -238,9 +237,7 @@ img.company-logo {
 	 -webkit-border-radius: 30px;
 	 -moz-border-radius: 30px;
 	 border-radius: 30px;
-	/* box-shadow */
-	 box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
-	
+		
 	}
 
 @media screen and (max-width: 600px) {
