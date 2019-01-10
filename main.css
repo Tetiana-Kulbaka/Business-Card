@@ -221,7 +221,7 @@ img.company-logo {
 	display: block;
 	background: linear-gradient(#2F80ED, #2D9CDB);
 	height: 53px;
-	width: 95px;
+	width: 120px;
 	padding: 0px 24px;
 	text-align: center;
 	vertical-align: middle;
@@ -236,6 +236,10 @@ img.company-logo {
 	 -webkit-border-radius: 30px;
 	 -moz-border-radius: 30px;
 	 border-radius: 30px;
+	/* box-shadow */
+	 -webkit-box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
+	 -moz-box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
+	 box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
 }
 
 .button:hover {
