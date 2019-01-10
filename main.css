@@ -214,12 +214,12 @@ img.company-logo {
 }
 
 .bottom {
-	height: 100px;
+	height: 15%;
 }
 
 .button {
 	display: block;
-	width: 160px;
+	rem: width: 160px;
 	background: linear-gradient(#2F80ED, #2D9CDB);
 	height: 53px;
 	padding: 0px 24px;
