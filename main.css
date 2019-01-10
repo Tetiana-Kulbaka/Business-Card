@@ -154,7 +154,7 @@ img.company-logo {
 }
 
 .banner {
-	padding-top: 35px;
+	padding-top: 10px;
 	padding-bottom: 0px;
 	height: 150px;
 }
@@ -214,12 +214,12 @@ img.company-logo {
 }
 
 .bottom {
-	height: 15%;
+	height: 100px;
 }
 
 .button {
 	display: block;
-	rem: width: 160px;
+	width: 160px;
 	background: linear-gradient(#2F80ED, #2D9CDB);
 	height: 53px;
 	padding: 0px 24px;
@@ -236,7 +236,11 @@ img.company-logo {
 	 -webkit-border-radius: 30px;
 	 -moz-border-radius: 30px;
 	 border-radius: 30px;
-	}
+	/* box-shadow */
+	 -webkit-box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
+	 -moz-box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
+	 box-shadow: rgba(0,0,0,0.8) 1px 1px 3px;
+}
 
 .button:hover {
 	cursor: pointer;
